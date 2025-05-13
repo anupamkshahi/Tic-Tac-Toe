@@ -35,4 +35,45 @@ h1{
     box-shadow: 0 0 1rem blueviolet(0,0,0,0.1);
     font-size: 8vmin;
     color: #b0413e;
+    background-color: rgb(239, 237, 236);
 } 
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.05rem;
+    background-color: rgb(44, 71, 141);
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none; 
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.05rem;
+    background-color: rgb(44, 71, 141);
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none; 
+    
+
+}
+
+#msg{
+    color: aliceblue;
+    font-size: 5vmin;
+   
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide{
+    display: none;
+}
